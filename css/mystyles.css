@@ -1,0 +1,171 @@
+body {
+    margin: 0;
+    padding: 0;
+   font-family:  sans-serif;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.nav-1{
+    background: #dee8f1;
+}
+.top-header {
+    margin-left: 100px;
+    padding: 15px;
+}
+a.nav1--content {
+    margin: 10px;
+    text-decoration: none;
+}
+.nav-2, .nav-3 {
+    background-color: #92327a;
+}
+ul.list {
+    list-style: none;
+}
+ul.main-header.list {
+    padding-left: 0px;
+}
+li.menu-list {
+    padding-top: 35px;
+    padding-right: 18px;
+    padding-left: 18px;
+}
+.main-header {
+    display: flex;
+}
+.logo img {
+    padding-top: 25px;
+}
+i.fa.fa-chevron-down.font {
+    padding-top: 38px;
+    margin-left: -5px;
+}
+i.fa.fa-search.font {
+    margin-right: 25px;
+    margin-left: 360px;
+}
+.font {
+    color: white;
+}
+.man-header.right {
+    padding: 35px;
+    font-size: 20px;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+/* The dots/bullets/indicators */
+/*.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+/*.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}*/
+.nav-bottom {
+    display: flex;
+    justify-content: space-around;
+}
+.nav-3 {
+    padding: 50px 0px;
+}
+.title{
+	padding-top: 50px;
+    font-size: 40px;
+    color: #84718c;
+    text-align: center;
+}
+.diff-packs {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding-top: 50px;
+}
+.col-6.left-sim {
+    padding-top: 250px;
+    padding-right: 250px;
+}
+p.text {
+    /* padding: 30px 0px; */
+    padding-top: 40px;
+    /* padding-bottom: 25px; */
+}
+input.button {
+    padding-right: 50px;
+    padding-left: 50px;
+    /* background-color: #c7978f; */
+}
+.col-6.right-sim {
+    padding-top: 100px;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  transform: translate(60%, 60%);
+}
