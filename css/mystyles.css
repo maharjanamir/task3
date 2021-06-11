@@ -119,6 +119,12 @@ input.button {
     text-align: center;
     padding-top: 50px;
 }
+.pack {
+    width: 135px;
+    height: 150px;
+    border: 1px solid powderblue;
+    border-radius: 35px;
+}
 .col-6.left-sim {
     padding-top: 250px;
     padding-right: 250px;
@@ -135,6 +141,18 @@ input.button {
 }
 .col-6.right-sim {
     padding-top: 100px;
+}
+.banner {
+    margin-top: 50px;
+}
+.pic-ins-texts{
+	position: absolute;
+    top: 50%;
+    right: 8%;
+    transform: translate(8%, -50%);
+    width: 30%;
+    z-index: 1;
+}
 }
 .footer {
     background-color: #e2e2e2;
